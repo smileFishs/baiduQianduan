@@ -1,0 +1,195 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: #dedede;
+}
+
+#logo{
+	width: 100%;
+	height: 60px;
+	background-color: #333;
+}
+
+#logo img{
+	position: relative;
+	left: 35px;
+}
+
+#logo li{
+	list-style: disc outside none;
+	float: right;
+	position: relative;
+	top: -40px;
+	width: 94px;
+}
+
+#logo li a{
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+#right{
+	position: absolute;
+	right: 20px;
+	top: 60px;
+	width: 460px;
+	background-color: white;
+}
+
+.left{
+	background-color: white;
+	margin-right: 540px;
+	margin-left: 20px;
+	border-right: solid 3px grey;
+	border-bottom: solid 3px grey;
+	
+}
+
+div:not([id="logo"]){
+	padding: 30px 20px;
+	margin-top: 20px;
+}
+
+h2{
+	width: auto;
+	height: 45px;
+}
+
+h3{
+	width: auto;
+	height: 45px;
+	color: gray;
+}
+
+.zuozhe{
+	width: auto;
+	height: 30px;
+	color: gray;
+}
+
+.wenzhang{
+	text-indent: 33px;
+	line-height: 28px;
+}
+
+.imgtop{
+	display: block;
+	width: 400px;
+	height: 350px;
+	margin: 10px 0px 10px 0px;
+}
+
+#li1 li{
+	position: relative;
+	top: 0px;
+	left: 20px;
+	line-height: 35px;
+	list-style: none inside none;
+}
+
+.picture img{
+	width: 100px;
+	height: 70px;
+	position: relative;
+	bottom: -12px;
+}
+
+.picture figcaption{
+	font-size: 14px;
+}
+
+li.picture{
+	padding: 10px;
+	margin: 20px;
+	text-align: center;
+	width: 100px;
+	height: 100px;
+	border: gainsboro 1px solid;
+	list-style: none inside none;
+	float: left;
+}
+
+figure{
+	overflow: auto;
+}
+
+table{
+	table-layout: fixed;	
+	border-collapse: collapse;
+}
+
+.biaotou{
+	background-color: black;
+	color: white;
+}
+
+.biaotou th{
+	text-align: left;
+	width: 300px;
+}
+
+#last{
+	width: 200px;
+}
+
+#total{
+	background-color: gainsboro;
+}
+
+#table ol{
+	margin-left: 15px;
+	margin-bottom: 15px;
+	list-style: decimal inside none;
+}
+
+form{
+	position: relative;
+	left:20px;
+	line-height: 35px;
+}
+
+form p{
+	line-height: 35px;
+	position: relative;
+	left:120px;
+	color: gray;
+}
+
+[type="password"],span,[type="radio"],select,[type="checkbox"]{
+	position: relative;
+	left:32px;
+}
+textarea{
+	position: relative;
+	left:32px;
+	height: 180px;
+	width: 200px;
+}
+
+#span1{
+	bottom: 167px;
+}
+
+[type="submit"]{
+	position: relative;
+	left: -20px;
+	width: 100%;
+	height: 50px;
+	background: blue;
+	color: white;
+	font-size: 30px;
+	border-radius: 10px;
+}
+
+footer{
+	width: 100%;
+	height: 50px;
+	color: white;
+	background-color: black;
+	text-align: center;
+	line-height: 50px;
+}
