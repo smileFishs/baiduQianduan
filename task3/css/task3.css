@@ -1,0 +1,62 @@
+body{
+	background-color: #eee;
+}
+.outside{
+	margin-top: 20px;
+}
+
+.left,.middle,.right{
+	border: solid 1px #999;
+}
+
+.left{
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	width: 200px;
+	height: 120px;
+	background-color: white;
+}
+
+.right{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	width: 120px;
+	height: 420px;
+	background-color: white;
+}
+.middle{
+	margin-left: 240px;
+	margin-right: 160px;
+	background-color: white;
+}
+
+.left div{
+	padding: 20px;
+	width: 80px;
+	height: 80px;
+}
+
+img{
+	width: 80px;
+	height: 80px;
+}
+
+.left span{
+	position: absolute;
+	top: 20px;
+	left: 120px;
+	font-size: 18px;
+}
+
+.right div{
+	padding-top: 20px;
+	padding-left: 20px;
+	width: 80px;
+	height: 80px;
+}
+
+p{
+	padding: 0px 20px;
+}
